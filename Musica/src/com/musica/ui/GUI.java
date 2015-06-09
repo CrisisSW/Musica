@@ -69,7 +69,7 @@ public class GUI extends JFrame implements ActionListener, KeyListener {
 		browserView.addKeyListener(this);
 		downloadMP3.setBrowser(browser);
 		browser.setDownloadMP3(downloadMP3);
-		browser.loadURL("https://www.youtube.com/watch?v=yvVctICqq8c");
+		browser.loadURL("https://www.youtube.com/");
 		browser.setDownloadManager(dm);
 	
 		downloadMP3Item.addActionListener(this);
